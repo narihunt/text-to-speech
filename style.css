@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M225.89999999999998 441.90999999999997 L268.40999999999997 442.33L266.86931344811603 422.40568655188395z' stroke='%23e73635' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3crect width='137' height='137' clip-path='url(%26quot%3b%23SvgjsClipPath1001%26quot%3b)' x='281.52' y='121.74' fill='url(%26quot%3b%23SvgjsPattern1002%26quot%3b)' transform='rotate(355.21%2c 350.02%2c 190.24)'%3e%3c/rect%3e%3crect width='240' height='240' clip-path='url(%26quot%3b%23SvgjsClipPath1003%26quot%3b)' x='1121.29' y='413.73' fill='url(%26quot%3b%23SvgjsPattern1004%26quot%3b)' transform='rotate(304.25%2c 1241.29%2c 533.73)'%3e%3c/rect%3e%3crect width='139.2' height='139.2' clip-path='url(%26quot%3b%23SvgjsClipPath1005%26quot%3b)' x='-66.26' y='301.88' fill='url(%26quot%3b%23SvgjsPattern1006%26quot%3b)' transform='rotate(161.16%2c 3.34%2c 371.48)'%3e%3c/rect%3e%3ccircle r='83.30172777833933' cx='604.1' cy='159.14' stroke='%23d3b714' stroke-width='1.72' stroke-dasharray='3%2c 3'%3e%3c/circle%3e%3cpath d='M733.79 172.97 L697.7199999999999 242.14L686.4844041712927 178.28440417129278z' stroke='%23d3b714' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3cpath d='M639.4 130.85a5.6 5.6 0 1 0-0.15-11.2 5.6 5.6 0 1 0 0.15 11.2zM639.19 114.85a5.6 5.6 0 1 0-0.15-11.2 5.6 5.6 0 1 0 0.15 11.2zM638.97 98.85a5.6 5.6 0 1 0-0.15-11.2 5.6 5.6 0 1 0 0.15 11.2zM638.76 82.86a5.6 5.6 0 1 0-0.15-11.2 5.6 5.6 0 1 0 0.15 11.2z' fill='%23d3b714'%3e%3c/path%3e%3crect width='156' height='156' clip-path='url(%26quot%3b%23SvgjsClipPath1007%26quot%3b)' x='783.82' y='202.51' fill='url(%26quot%3b%23SvgjsPattern1008%26quot%3b)' transform='rotate(202.19%2c 861.82%2c 280.51)'%3e%3c/rect%3e%3cpath d='M896.67 8.77L888.77-1.31 896.87-11.23 888.98-21.31 897.08-31.23 889.18-41.31 897.29-51.23' stroke='%23e73635' stroke-width='1.01'%3e%3c/path%3e%3ccircle r='46.666666666666664' cx='211.88' cy='158.09' fill='%23037b0b'%3e%3c/circle%3e%3crect width='312' height='312' clip-path='url(%26quot%3b%23SvgjsClipPath1009%26quot%3b)' x='996.31' y='-27.96' fill='url(%26quot%3b%23SvgjsPattern1010%26quot%3b)' transform='rotate(185.71%2c 1152.31%2c 128.04)'%3e%3c/rect%3e%3crect width='216' height='216' clip-path='url(%26quot%3b%23SvgjsClipPath1011%26quot%3b)' x='856.41' y='286.87' fill='url(%26quot%3b%23SvgjsPattern1012%26quot%3b)' transform='rotate(89.34%2c 964.41%2c 394.87)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='13.7' height='13.7' patternUnits='userSpaceOnUse' id='SvgjsPattern1002'%3e%3cpath d='M0 13.7L6.85 0L13.7 13.7' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1001'%3e%3ccircle r='34.25' cx='350.02' cy='190.24'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1004'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1003'%3e%3ccircle r='60' cx='1241.29' cy='533.73'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.92' height='13.92' patternUnits='userSpaceOnUse' id='SvgjsPattern1006'%3e%3cpath d='M6.96 1L6.96 12.92M1 6.96L12.92 6.96' stroke='%23d3b714' fill='none' stroke-width='3.77'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1005'%3e%3ccircle r='34.8' cx='3.34' cy='371.48'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1008'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1.23'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1007'%3e%3ccircle r='39' cx='861.82' cy='280.51'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1010'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1.48'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1009'%3e%3ccircle r='78' cx='1152.31' cy='128.04'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='216' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1012'%3e%3crect width='216' height='3' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='216' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1011'%3e%3ccircle r='54' cx='964.41' cy='394.87'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 3px 4px purple;
+
+}
+textarea{
+    margin: 30px 0;
+    width: 300px;
+    height: 100px;
+    box-shadow: 5px 6px 10px blueviolet;
+}
+
+ button{
+    background-color: black;
+    color: rgb(254, 255, 251);
+    border: none;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+ }
