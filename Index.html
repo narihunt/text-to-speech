@@ -9,25 +9,30 @@
 
     <div id="container">
         <h2>TEXT TO SPEECH</h2>
-        <textarea name="text" id=""></textarea>
-        <button onclick="speak()">Text To Speech</button>
+        <textarea name="text-input" placeholder="Enter text here..." id=""></textarea>
+        <select id="voice-select"></select>
+        <button onclick="speakText()">Speak</button>
     </div>
       
     <script>
-        var speech = new SpeechSynthesisUtterance();
+        const textInput = document.getElementById('text-input');
+        const voiceSelect = document.getElementById('voice-select');
+        const voices = speechSynthesis.getVoices();
 
+        voices.forEach((voice) => {
+            const option = document.createElement('option');
+            option.textContent = voice.name;
+            option.value = voice.name;
+            voiceSelect.appendChild(option);
+        });
 
-        function speak(){
-            speech.text=textTospeech.value;
-
-    speech.rate=10;
-    speech.volume=10;
-    speech.pitch=10;
-    window.SpeechSynthesis.speak(speech);
-
-
-        } 
-        speak();
+        function speakText() {
+            const text = textInput.value;
+            const voice = voices.find((voice) => voice.name === voiceSelect.value);
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.voice = voice;
+            speechSynthesis.speak(utterance);
+        }
     </script>
 
 </body>
